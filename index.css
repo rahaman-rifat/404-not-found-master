@@ -1,0 +1,51 @@
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Space Mono', monospace;
+}
+.container{
+    margin: 40px 120px 300px 80px;
+}
+section{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    width: 100%;
+}
+h1{
+    font-size: 64px;
+    font-weight: 700;
+    text-align: left;
+    color: #333333;
+}
+p{
+font-size: 24px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: -0.035em;
+text-align: left;
+color:#4F4F4F;
+}
+button{
+    height: 68px;
+    padding: 23px 43px;
+    background-color:#333333;
+    color: white;
+    font-family: Space Mono;
+    font-size: 14px;
+    font-weight: 700;
+}
+img{
+    width: 70%;
+}
+
+/* REsponsive for mobile */
+@media screen and (max-width:676px) {
+    section{
+        flex-direction: column;
+        gap: 0px;
+        margin-top: 64px;
+    }
+}

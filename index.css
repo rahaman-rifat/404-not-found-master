@@ -21,12 +21,12 @@ h1{
     color: #333333;
 }
 p{
-font-size: 24px;
-font-weight: 400;
-line-height: 36px;
-letter-spacing: -0.035em;
-text-align: left;
-color:#4F4F4F;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.035rem;
+    text-align: left;
+    color:#4F4F4F;
 }
 button{
     height: 68px;
@@ -50,6 +50,15 @@ img{
         flex-direction: column;
         gap: 0px;
         margin-top: 64px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    p{
+        font-size: 16px;
+    }
+    button{
+        font-size: 19px;
     }
     img{
         margin-left: 50px;
